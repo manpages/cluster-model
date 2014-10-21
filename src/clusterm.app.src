@@ -1,0 +1,9 @@
+{application, clusterm, [
+  {vsn,          "0.0.1"}
+ ,{description,  "A model of a cluster"}
+ ,{registered,   [ clusterm_sup ]}
+ ,{applications, [ kernel
+                  ,stdlib ]}
+ ,{mod,          {clusterm_app, []}}
+ ,{modules,      []}
+]}.

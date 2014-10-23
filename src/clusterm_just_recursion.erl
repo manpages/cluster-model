@@ -1,7 +1,8 @@
 -module(clusterm_just_recursion).
 
 -export([ for_is_just_recursion/1
-         ,dialyzer_error_example/0 ]).
+         %% ,dialyzer_error_example/0 ]).
+         ]).
 
 %% Uncomment this function, then run
 %% make dialyze
